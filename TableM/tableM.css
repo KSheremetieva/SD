@@ -1,0 +1,100 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body,html{
+	width:100%;
+	height:100%;
+	background-image:url(img/b2.png);
+}
+
+@font-face{
+	font-family:galsc-bold;
+	src: url(font/galsc-bold.otf);
+}
+
+@font-face{
+	font-family:galsc;
+	src: url(font/galsc.otf);
+}
+
+.main{
+	width:1280px;
+	height:670px;
+	border: 1px solid white;
+	margin:0 auto;
+	font-family:galsc;
+}
+
+/*.top, .bottom{
+	border:none;
+}*/
+
+.top{
+	width:100%;
+	height:450px;
+	margin:0px;
+	border:1px solid red;
+}
+
+.bottom{
+	width:100%;
+	height:150px;
+	margin-top:30px;
+	border:1px solid yellow;
+}
+
+div{
+	border:1px solid #27b88e;
+	border-radius: 5px;
+	float:left;
+	width:58px;
+	height:63px;
+	margin-left:3px;
+	margin-top:3px;
+}
+
+div.top div div{
+	border:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	color: #27b88e;
+/*	border:1px solid green;*/
+	width:100%;
+	margin-top:2px;
+}
+
+div.top div div:first-of-type{
+	margin-top:4px;
+}
+
+.numb{
+	height:10px;
+	font-size:8px;
+	line-height:7px;
+}
+.name{
+	font-weight:bold;
+	height:13px;
+	font-size:21px;
+	line-height:12px;
+	font-family:galsc-bold;
+}
+
+.fullName{
+	height:8px;
+	font-size:8px;
+	line-height:7px;
+}
+.diskr{
+		height:8px;
+	font-size:8px;
+	line-height:7px;
+}
+.formula{
+	height:8px;
+	font-size:8px;
+	line-height:6px;
+}
